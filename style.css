@@ -1,0 +1,51 @@
+/*Edits the width and height of the image and centers on page*/
+img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Makes the background color of the entire page blanched almond*/
+body {
+    background-color: blanchedalmond;
+}
+
+/*Makes the title and page navigation visible as you scroll down the page*/
+#page-banner {
+    position: fixed;
+    min-height: 12em;
+    text-align: center;
+}
+
+/*Edits the font and background of the section headers (i.e. Contact Information, Objective, etc).
+Also centers the section headers on the page*/
+.section-header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+}
+
+/*Makes the different sections in skills display in next to each other and adds a border*/
+.skills-section {
+    display: table-cell;
+    width: 33%;
+    border-style: solid;
+    border-width: 2px;
+}
+
+/*Makes the programming languages display next to each other*/
+.p-language {
+    float: left;
+    width: 50%;
+}
+
+/*Edits the font and background color of the sub-section headers (i.e. Permanent Address, Programming Languages, etc)*/
+.subsec-header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    background-color: orange;
+}
